@@ -1,0 +1,42 @@
+/* selector de etiqueta*/
+h2{
+    color: blue;
+}
+
+
+/* selector de desendencia*/
+div h3{
+    color: rgb(255, 0, 0);
+}
+
+
+/* selector de herencia*/
+div p{
+    color: rgb(1, 167, 70);
+    
+}
+a{
+    color: inherit;
+}
+
+
+/* cascada*/
+h4{
+    color: aqua;
+    color: blueviolet;
+    color: deeppink;
+    color: orange;
+}
+
+
+
+/* especifidad clase*/
+.class{
+    color: blueviolet;
+}
+
+
+/* especifidad de Id*/
+#IdEspecifidad{
+    color: brown;
+}
